@@ -5,7 +5,7 @@ function ProductItem({product}) {
 	return (
 		<div className="p-3 bg-white">
 			<picture className="relative block">
-				<button className="w-8 h-8 flex absolute top-0 right-2 border shadow-md rounded-lg border-gray-200 text-purple-700 transition-colors hover:bg-purple-50 items-center justify-center">
+				<button className="w-8 h-8 flex absolute top-0 right-2 border shadow-md rounded-lg border-gray-200 text-purple-700 transition-colors bg-white hover:bg-purple-50 items-center justify-center">
 					<AiOutlinePlus />
 				</button>
 				<img src={product.image} className="w-full"/>
