@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import Slider from "react-slick";
 import Banners from 'api/banners.json'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
+import { useWindowWidth } from '@react-hook/window-size'
 
 function NextButton ({ onClick, className }) {
 	return (
@@ -19,7 +20,8 @@ function PrevButton ({ onClick, className }) {
 }
 
 function Campaigns() {
-	const [banners, setBanners] = useState(() => Banners || [])
+	const [banners, setBanners] = useState(() => Banners || []);
+
 
 	const settings = {
 		dots: false,
@@ -30,7 +32,21 @@ function Campaigns() {
 		autoplay: true,
 		autoplaySpeed: 3000,
 		nextArrow: <NextButton />,
-		prevArrow: <PrevButton />
+		prevArrow: <PrevButton />,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 640,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	};
 
 	return (

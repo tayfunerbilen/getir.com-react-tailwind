@@ -3,14 +3,14 @@ import {FiGlobe} from 'react-icons/fi';
 
 function Footer() {
 	return (
-		<div className="bg-white pt-10 pb-6">
+		<div className="bg-white py-4 sm:pt-10 sm:pb-6">
 			<div className="container mx-auto grid gap-y-5">
-				<div className="grid grid-cols-4">
+				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-4">
 					<nav>
 						<h3 className="text-lg text-purple-700 mb-4">
 							Getir'i indirin!
 						</h3>
-						<ul className="grid gap-y-3">
+						<ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3">
 							<li>
 								<a href="#">
 									<img
@@ -99,7 +99,7 @@ function Footer() {
 					</nav>
 				</div>
 				<div className="h-[1px] bg-gray-100"></div>
-				<div className="flex justify-between text-sm pt-3">
+				<div className="flex justify-between flex-col items-center gap-y-3 sm:gap-y-0 sm:flex-row text-sm pt-1 sm:pt-3">
 					<div className="flex gap-x-4 text-gray-700">
 						&copy; 2021 Getir
 						<div>

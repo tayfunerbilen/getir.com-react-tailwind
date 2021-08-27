@@ -10,8 +10,8 @@ function ProductItem({product}) {
 				</button>
 				<img src={product.image} className="w-full"/>
 			</picture>
-			<div className="flex flex-col items-center gap-y-1">
-				<div className="text-sm font-semibold text-purple-700">{product.price}</div>
+			<div className="flex flex-col items-center text-center gap-y-1">
+				<div className="text-sm font-semibold text-purple-700">{new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY' }).format(product.price)}</div>
 				<div className="text-sm font-semibold">{product.title}</div>
 				<div className="text-sm font-semibold text-gray-500">{product.alt}</div>
 			</div>
