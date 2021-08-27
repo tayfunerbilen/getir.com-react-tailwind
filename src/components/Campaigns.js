@@ -19,12 +19,7 @@ function PrevButton ({ onClick, className }) {
 }
 
 function Campaigns() {
-
-	const [banners, setBanners] = useState([])
-
-	useEffect(() => {
-		setBanners(Banners)
-	}, [])
+	const [banners, setBanners] = useState(() => Banners || [])
 
 	const settings = {
 		dots: false,
@@ -39,18 +34,16 @@ function Campaigns() {
 	};
 
 	return (
-		<>
-			<div className="container mx-auto">
-				<h3 className="font-semibold text-sm mb-3">Kampanyalar</h3>
-				<Slider className="-mx-2 relative" {...settings}>
-					{banners && banners.map(banner => (
-						<div key={banner.id} className="px-2">
-							<img src={banner.image} className="w-full rounded-lg" />
-						</div>
-					))}
-				</Slider>
-			</div>
-		</>
+		<div className="container mx-auto">
+			<h3 className="font-semibold text-sm mb-3">Kampanyalar</h3>
+			<Slider className="-mx-2 relative" {...settings}>
+				{banners.length && banners.map(banner => (
+					<div key={banner.id} className="px-2">
+						<img src={banner.image} className="w-full rounded-lg" />
+					</div>
+				))}
+			</Slider>
+		</div>
 	)
 }
 
