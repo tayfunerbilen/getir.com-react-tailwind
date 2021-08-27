@@ -12,11 +12,20 @@
     }
 }
 
+@layer components {
+    @media(max-width: 640px) {
+        .container {
+            max-width: 100%;
+            @apply px-4 box-border
+        }
+    }
+}
+
 .slick-prev {
-    @apply absolute top-1/2 -left-8 -translate-y-1/2
+    @apply absolute top-1/2 -left-8 -translate-y-1/2 hidden md:block
 }
 .slick-next {
-    @apply absolute top-1/2 -right-8 -translate-y-1/2
+    @apply absolute top-1/2 -right-8 -translate-y-1/2 hidden md:block
 }
 
 #rfs-btn {

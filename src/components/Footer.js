@@ -3,14 +3,14 @@ import {FiGlobe} from 'react-icons/fi';
 
 function Footer() {
 	return (
-		<div className="bg-white pt-10 pb-6">
+		<div className="bg-white py-4 sm:pt-10 sm:pb-6">
 			<div className="container mx-auto grid gap-y-5">
-				<div className="grid grid-cols-4">
+				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-4">
 					<nav>
 						<h3 className="text-lg text-purple-700 mb-4">
 							Getir'i indirin!
 						</h3>
-						<ul className="grid gap-y-3">
+						<ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3">
 							<li>
 								<a href="#">
 									<img
