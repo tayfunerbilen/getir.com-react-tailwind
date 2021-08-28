@@ -1,3 +1,11 @@
+import PropTypes from 'prop-types';
+
+
+/**
+ * ### CardItem
+ * @param {*} card: Object `{title: String, image: String, description: String}` 
+ * @returns JSX Element
+ */
 function CardItem({card: {title, image, description}}) {
 	return (
 		<div className="bg-white flex flex-col gap-y-2 text-center items-center rounded-lg px-6 py-10">
@@ -10,4 +18,8 @@ function CardItem({card: {title, image, description}}) {
 	)
 }
 
-export default CardItem
+export default CardItem;
+
+CardItem.propTypes = {
+	card: PropTypes.object.isRequired
+}

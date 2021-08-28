@@ -1,6 +1,11 @@
-import {useState} from 'react'
 import {AiOutlinePlus} from 'react-icons/ai'
+import PropTypes from 'prop-types';
 
+/**
+ * ### ProductItem
+ * @param {*} product: Object `{image: String, title: String, alt: String, price: Number | Float- }` 
+ * @returns JSX Element
+ */
 function ProductItem({product}) {
 	return (
 		<div className="p-3 bg-white">
@@ -19,4 +24,8 @@ function ProductItem({product}) {
 	)
 }
 
-export default ProductItem
+export default ProductItem;
+
+ProductItem.propTypes = {
+	product: PropTypes.object
+}
