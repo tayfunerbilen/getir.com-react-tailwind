@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "title": "Lay's Mevsim Yeşillikli",
+      "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
+      "alt": "96 g",
+      "price": 6.36
+    },
+    {
+      "id": 2,
+      "title": "Eti Canga",
+      "image": "https://cdn.getir.com/product/5f3538dc71a71226677fba17_tr_1624437105104.jpeg",
+      "alt": "45 g",
+      "price": 2.85
+    },
+    {
+      "id": 3,
+      "title": "Kuzeyden",
+      "image": "https://cdn.getir.com/product/5a7b20fd8e19da0004bb27f8_tr_1615375864268.jpeg",
+      "alt": "1.5 L",
+      "price": 2.95
+    },
+    {
+      "id": 4,
+      "title": "Kızılay Erzincan",
+      "image": "https://cdn.getir.com/product/60018c5bca2126d84459c47f_tr_1610788125046.jpeg",
+      "alt": "6 x 200 ml",
+      "price": 5.90
+    },
+    {
+      "id": 5,
+      "title": "Ülker Napoliten",
+      "image": "https://cdn.getir.com/product/574b2219dee8a90300f18d24_tr_1599938278519.jpeg",
+      "alt": "33 g",
+      "price": 3.30
+    },
+    {
+      "id": 6,
+      "title": "Kavrulmuş Siyah Ay Çekirdeği",
+      "image": "https://cdn.getir.com/product/5ccaf4ff1a1763000175a869_tr_1580904995656.jpeg",
+      "alt": "180 g",
+      "price": 10.95
+    },
+    {
+      "id": 7,
+      "title": "Magnum Badem",
+      "image": "https://cdn.getir.com/product/559fec01f462100c00461d5c_tr_1618323765236.jpeg",
+      "alt": "100 ml",
+      "price": 7.50
+    },
+    {
+      "id": 8,
+      "title": "İçim %3 Yağlı Süt",
+      "image": "https://cdn.getir.com/product/5ced482d4a8a2a000137da6d_tr_1623652387464.jpeg",
+      "alt": "1 L",
+      "price": 7.95
+    },
+    {
+      "id": 9,
+      "title": "Lay's Mevsim Yeşillikli",
+      "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
+      "alt": "96 g",
+      "price": 6.36
+    },
+    {
+      "id": 10,
+      "title": "Eti Canga",
+      "image": "https://cdn.getir.com/product/5f3538dc71a71226677fba17_tr_1624437105104.jpeg",
+      "alt": "45 g",
+      "price": 2.85
+    },
+    {
+      "id": 11,
+      "title": "Kuzeyden",
+      "image": "https://cdn.getir.com/product/5a7b20fd8e19da0004bb27f8_tr_1615375864268.jpeg",
+      "alt": "1.5 L",
+      "price": 2.95
+    },
+    {
+      "id": 12,
+      "title": "Kızılay Erzincan",
+      "image": "https://cdn.getir.com/product/60018c5bca2126d84459c47f_tr_1610788125046.jpeg",
+      "alt": "6 x 200 ml",
+      "price": 5.90
+    },
+    {
+      "id": 13,
+      "title": "Ülker Napoliten",
+      "image": "https://cdn.getir.com/product/574b2219dee8a90300f18d24_tr_1599938278519.jpeg",
+      "alt": "33 g",
+      "price": 3.30
+    },
+    {
+      "id": 14,
+      "title": "Kavrulmuş Siyah Ay Çekirdeği",
+      "image": "https://cdn.getir.com/product/5ccaf4ff1a1763000175a869_tr_1580904995656.jpeg",
+      "alt": "180 g",
+      "price": 10.95
+    },
+    {
+      "id": 15,
+      "title": "Magnum Badem",
+      "image": "https://cdn.getir.com/product/559fec01f462100c00461d5c_tr_1618323765236.jpeg",
+      "alt": "100 ml",
+      "price": 7.50
+    },
+    {
+      "id": 16,
+      "title": "İçim %3 Yağlı Süt",
+      "image": "https://cdn.getir.com/product/5ced482d4a8a2a000137da6d_tr_1623652387464.jpeg",
+      "alt": "1 L",
+      "price": 7.95
+    }
+]
